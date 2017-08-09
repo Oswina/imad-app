@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
 var articleOne= {
-  title: Article One | Oswina Pinto,
-  heading: Article One,
-  date: Aug 9, 2017,
+  title: 'Article One | Oswina Pinto',
+  heading: 'Article One',
+  date: 'Aug 9 2017',
   content: ` 
             <p>
                 This is the content of my first article.This is the content of my first article.This is the content of my first article.
@@ -23,9 +23,9 @@ var articleOne= {
 };
 function createTemplate (data){
     var title = data.title;
-    var.heading = data.heading;
-    var.date = data.date;
-    var.content = data.content;
+    var heading = data.heading;
+    var date = data.date;
+    var content = data.content;
     var htmlTemplate=` 
         <html>
         <head>
